@@ -5,5 +5,8 @@ do
 	echo "this is number: "${i}
 done
 
-echo $(ls -l)
-echo $(cat 001aaa.sh)
+for i in {1..10}
+do
+	echo "this is number:"${i}
+done
+
